@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (13 Feb 2023)
+Options in effect:
+  --cm-map ../data/genetic_map_chr12_combined_b37.txt 12
+  --extract ../artery/variants.txt
+  --keep ../eur_inds.txt
+  --make-bed
+  --out ../artery/plink_files/chr12_cm
+  --vcf ../vcf_files/chr12.vcf.gz
+
+Hostname: DESKTOP-NH3FGR2
+Working directory: /mnt/c/Users/Lingxiao Guan/Desktop/BIOSTAT 666/Final_Project/gwas_scripts
+Start time: Sun Apr 21 02:29:48 2024
+
+Random number seed: 1713680988
+64183 MB RAM detected; reserving 32091 MB for main workspace.
+--vcf: ../artery/plink_files/chr12_cm-temporary.bed +
+../artery/plink_files/chr12_cm-temporary.bim +
+../artery/plink_files/chr12_cm-temporary.fam written.
+1819417 variants loaded from .bim file.
+1092 people (0 males, 0 females, 1092 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../artery/plink_files/chr12_cm.nosex .
+--cm-map: 1 chromosome updated.
+--extract: 56379 variants remaining.
+--keep: 378 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 378 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is exactly 1.
+56379 variants and 378 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ../artery/plink_files/chr12_cm.bed +
+../artery/plink_files/chr12_cm.bim + ../artery/plink_files/chr12_cm.fam ...
+done.
+
+End time: Sun Apr 21 02:30:21 2024

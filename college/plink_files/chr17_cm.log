@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (13 Feb 2023)
+Options in effect:
+  --cm-map ../data/genetic_map_chr17_combined_b37.txt 17
+  --extract ../college/variants.txt
+  --keep ../eur_inds.txt
+  --make-bed
+  --out ../college/plink_files/chr17_cm
+  --vcf ../vcf_files/chr17.vcf.gz
+
+Hostname: DESKTOP-NH3FGR2
+Working directory: /mnt/c/Users/Lingxiao Guan/Desktop/BIOSTAT 666/Final_Project/gwas_scripts
+Start time: Sun Apr 21 02:08:36 2024
+
+Random number seed: 1713679716
+64183 MB RAM detected; reserving 32091 MB for main workspace.
+--vcf: ../college/plink_files/chr17_cm-temporary.bed +
+../college/plink_files/chr17_cm-temporary.bim +
+../college/plink_files/chr17_cm-temporary.fam written.
+1040848 variants loaded from .bim file.
+1092 people (0 males, 0 females, 1092 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../college/plink_files/chr17_cm.nosex .
+--cm-map: 1 chromosome updated.
+--extract: 26308 variants remaining.
+--keep: 378 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 378 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is exactly 1.
+26308 variants and 378 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ../college/plink_files/chr17_cm.bed +
+../college/plink_files/chr17_cm.bim + ../college/plink_files/chr17_cm.fam ...
+done.
+
+End time: Sun Apr 21 02:08:54 2024

@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (13 Feb 2023)
+Options in effect:
+  --cm-map ../data/genetic_map_chr2_combined_b37.txt 2
+  --extract ../bipolar/variants.txt
+  --keep ../eur_inds.txt
+  --make-bed
+  --out ../bipolar/plink_files/chr2_cm
+  --vcf ../vcf_files/chr2.vcf.gz
+
+Hostname: DESKTOP-NH3FGR2
+Working directory: /mnt/c/Users/Lingxiao Guan/Desktop/BIOSTAT 666/Final_Project/gwas_scripts
+Start time: Sun Apr 21 02:58:12 2024
+
+Random number seed: 1713682692
+64183 MB RAM detected; reserving 32091 MB for main workspace.
+--vcf: ../bipolar/plink_files/chr2_cm-temporary.bed +
+../bipolar/plink_files/chr2_cm-temporary.bim +
+../bipolar/plink_files/chr2_cm-temporary.fam written.
+3292764 variants loaded from .bim file.
+1092 people (0 males, 0 females, 1092 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../bipolar/plink_files/chr2_cm.nosex .
+--cm-map: 1 chromosome updated.
+--extract: 97470 variants remaining.
+--keep: 378 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 378 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is exactly 1.
+97470 variants and 378 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ../bipolar/plink_files/chr2_cm.bed +
+../bipolar/plink_files/chr2_cm.bim + ../bipolar/plink_files/chr2_cm.fam ...
+done.
+
+End time: Sun Apr 21 02:59:12 2024

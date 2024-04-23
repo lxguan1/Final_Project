@@ -1,0 +1,38 @@
+*******************************************************************
+* Genome-wide Complex Trait Analysis (GCTA)
+* version v1.94.1 Linux
+* Built at Nov 15 2022 21:14:25, by GCC 8.5
+* (C) 2010-present, Yang Lab, Westlake University
+* Please report bugs to Jian Yang <jian.yang@westlake.edu.cn>
+*******************************************************************
+Analysis started at 02:45:21 EDT on Sun Apr 21 2024.
+Hostname: DESKTOP-NH3FGR2
+
+Accepted options:
+--bfile ../depression/plink_files/chr22_cm
+--ld-score
+--ld-wind 1000
+--ld-rsq-cutoff 0
+--ld-score-adj
+--out ../depression/gcta_output/chr22
+--maf 1e-05
+--thread-num 22
+
+Note: the program will be running on 22 threads.
+
+Reading PLINK FAM file from [../depression/plink_files/chr22_cm.fam].
+378 individuals to be included from [../depression/plink_files/chr22_cm.fam].
+Reading PLINK BIM file from [../depression/plink_files/chr22_cm.bim].
+15776 SNPs to be included from [../depression/plink_files/chr22_cm.bim].
+Reading PLINK BED file from [../depression/plink_files/chr22_cm.bed] in SNP-major format ...
+Genotype data for 378 individuals and 15776 SNPs to be included from [../depression/plink_files/chr22_cm.bed].
+Calculating allele frequencies ...
+Filtering SNPs with MAF > 1e-05 ...
+After filtering SNPs with MAF > 1e-05, there are 15776 SNPs (0 SNPs with MAF < 1e-05).
+
+Calculating LD score for SNPs (block size of 1000Kb with an overlap of 500Kb between blocks); LD rsq threshold = 0) ... 
+LD rsq will be adjusted for chance correlation, i.e. rsq_adj = rsq - (1 - rsq) / (n -2).
+LD score for 15776 SNPs have been saved in the file [../depression/gcta_output/chr22.score.ld].
+
+Analysis finished at 02:45:22 EDT on Sun Apr 21 2024
+Overall computational time: 0.20 sec.

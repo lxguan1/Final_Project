@@ -1,0 +1,1 @@
+../king -b king_analysis/king.bed --unrelated --degree 2
